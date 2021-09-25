@@ -22,7 +22,7 @@ LinkedList.prototype.add = function(element){
         }
         current.next = node;
     }
-    this.size++;
+    this.size++; 
 }
 
 LinkedList.prototype.isEmpty = function(){
